@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#img1{
+filter:box-shadow(8px 8px 10px gray);border-radius:50% ; opacity:50;
+}
+
+/* The animation code */
+@keyframes binu {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: binu;
+  animation-duration: 0.2s;
+}
+div{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s;
+}
+
+</style>
+</head>
+<body>
+<h1>the ()function</h1>
+<p>box-shadow(8px 8px 10px gray):</p>
+<img id="img1" src="binu.jpg" alt="binu" width="300" height="300">
+</body>
+</html>

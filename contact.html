@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+    <h1>BINU Restaurant</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+	<li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <div class="contact-container">
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <p>Feel free to reach out to us via the contact form below!</p>
+            
+            <div class="contact-info">
+                <p><strong>Mobile:</strong> 7387755689</p>
+                <p><strong>Email:</strong> binumaurya623@.com</p>
+            </div>
+
+            <form action="contact_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
